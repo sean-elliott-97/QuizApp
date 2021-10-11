@@ -1,0 +1,113 @@
+/*removes all text decoration*/
+a {
+  text-decoration: none;
+}
+
+/*changes width, height, background color, color, font family, font size, and adds border radius to start button*/
+#startButton {
+  width: 100px;
+  height: 50px;
+  background-color: violet;
+  color: white;
+  font-family: cursive;
+  border-radius: 35px;
+  font-size: 16px;
+}
+
+/*displays header element as flex, justify-content set to space-between, font-family and font-size changed*/
+#header {
+  display: flex;
+  justify-content: space-between;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+/*color and text-decoration of highScoresLink changed*/
+#highScoresLink {
+  color: violet;
+  text-decoration: none;
+}
+
+/*questionsSection class displayed as block, flex-wrap changed to wrap, */
+.questionsSection {
+  display: block;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 24px;
+  padding: 10px;
+  justify-content: space-between;
+  font-family: cursive;
+  text-align: center;
+  align-items: center;
+}
+.question {
+  display: block;
+
+  flex-direction: column;
+  margin-top: 300px;
+  font-size: 24px;
+  padding: 10px;
+
+  justify-content: space-between;
+  font-family: cursive;
+  text-align: center;
+  align-items: center;
+}
+
+/*choice buttons background color changed, border changed to none, color of text to white, text aligned to the center, text decoration set to none, and font size set to 20px*/
+#choiceOne,#choiceTwo,#choiceThree,#choiceFour {
+  background-color: purple;
+  border: none;
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 20px;
+}
+
+/*instructions text aligned to center*/
+#instructions {
+  text-align: center;
+}
+
+/*highScores displayed as block, with items and text aligned to center, border set to none, and font family set to cursive*/
+#highScores {
+  display: block;
+  align-items: center;
+  text-align: center;
+  border: none;
+  font-family: cursive;
+}
+
+/*scoreArea displayed as a block, flex-direction set to column, font-family set to cursive, and text and items aligned to the center*/
+#scoreArea {
+  display: block;
+  flex-direction: column;
+  font-family: cursive;
+  text-align: center;
+  align-items: center;
+  
+}
+
+/*store, clear, and return buttons displayed as block, flex direction set to column, font family set to cursive, text and items aligned to center*/
+.saveClearReturnButtons {
+  display: block;
+  flex-direction: column;
+  font-family: cursive;
+  text-align: center;
+  align-items: center;
+}
+
+/*save, clear, and return buttons font changed to cursive, color to white, and background color to rebeccapurple*/
+#save, #clear, #return {
+  font-family: cursive;
+  color: white;
+  background-color: rebeccapurple;
+}
+
+/*userScoreP font set to 36px*/
+#userScoreP {
+  font-size: 36px;
+}

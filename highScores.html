@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Highscores</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./Assets/CSS/styles.css"/>
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body>
+    <header style="visibility: hidden;" id="header">
+      <a href="highScores.html"><p id="highScoresLink">View scores</p></a>
+      <p id="timer" style="visibility: hidden;">Time:</p>
+    </header>
+    <section id="highScores">
+      <p id="userScoreP">Score</p>
+      <ol id = "scoreArea">
+        
+
+
+      </ol>
+      <br></br>
+    <div class ="saveClearReturnButtons">
+      
+      <button onclick="saveScore()" id = "save">Save Score</button>
+      <br></br>
+      <button onclick="clearScores()" id = "clear">Clear Scores</button>
+      <a href="index.html"><button id="return">Return</button></a>
+    </div>
+    
+    </section>
+    <section class="question" style="visibility: hidden;">
+      <p id="questionPrompt">Quiz</p>
+      
+      <button id="choiceOne"></button>
+      <br>
+      <button id="choiceTwo"></button>
+      <br>
+      <button id="choiceThree"></button>
+      <br>
+      <button id="choiceFour"></button>
+    
+    </section>
+    
+    <script src="./Assets/Js/quiz.js"></script>
+  </body>
+</html>
