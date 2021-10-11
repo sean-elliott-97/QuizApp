@@ -192,7 +192,9 @@ window.onload = function () {
   var timerInterval = setInterval(function () {
     if (timer <= 0) {
       saveCurrentScore();
+
       clearInterval(timerInterval);
+      highScore();
     }
 
     timerLabel.innerHTML = "Time left: " + timer;
